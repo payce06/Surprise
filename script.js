@@ -14,3 +14,11 @@ function login() {
         error.textContent = "Wrong credentials. Try Again!";
     }
 }
+
+function throwConfetti() {
+    confetti({
+        particleCount: 150,
+        spread: 90,
+        origin: { y: 0.6}
+    });
+}
