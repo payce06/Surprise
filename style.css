@@ -81,3 +81,19 @@ button:hover {
     font-size: 1.2rem;
     font-weight: 300;
 }
+
+.hidden {
+    display: none;
+}
+
+#error-message {
+    margin-top: 10px;
+    color: #ff6b6b;
+    font-size: 0.95rem;
+}
+
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50% }
+}
